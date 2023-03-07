@@ -35,6 +35,9 @@ code --install-extension msjsdiag.debugger-for-edge
 #--- Microsoft WebDriver ---
 choco install -y microsoftwebdriver
 choco install -y sql-server-2022
+choco install -y sql-server-management-studio
+
+refreshenv
 
 Enable-UAC
 Enable-MicrosoftUpdate
